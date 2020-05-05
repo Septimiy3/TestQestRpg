@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:background="@drawable/welcom_background"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+
+    <Button
+        android:onClick="NewGame"
+        android:id="@+id/button1"
+        android:background="@drawable/button_menu_background"
+        android:layout_width="162dp"
+        android:layout_height="57dp"
+        android:text="@string/new_game"
+        android:textSize="15sp" />
+    <Button
+        android:id="@+id/button2"
+        android:gravity="center"
+        android:background="@drawable/button_menu_background"
+        android:layout_width="162dp"
+        android:layout_height="57dp"
+        android:text="@string/continue_game"
+        android:textSize="15sp"
+        android:layout_below="@id/button1"
+        android:layout_marginTop="16dp" />
+    <Button
+        android:onClick="Setting"
+        android:id="@+id/button3"
+        android:background="@drawable/button_menu_background"
+        android:layout_width="162dp"
+        android:layout_height="57dp"
+        android:text="@string/setting_name"
+        android:textSize="15sp"
+        android:layout_below="@id/button2"
+        android:layout_marginTop="16dp" />
+
+
+
+</RelativeLayout>

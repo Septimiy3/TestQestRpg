@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">TestQestRpg</string>
+
+    <string name="backstory">Это небольшая история о герое,который оказался в ненужном место и в ненужное время.</string>
+    <string name="backstory2">В королевстве Holf всегда царил мир и покой,так продолжалось до тех пор,пока однажды на границе с
+        королевством не стали пропадать люди.</string>
+
+    <!-- основной экран -->
+    <string name="new_game">Новая игра</string>
+    <string name="continue_game">Продолжить</string>
+    <string name="setting_name">Настройки</string>
+
+    <!-- экран настройка -->
+    <string name="fon_music_name">Фоновая музыка</string>
+
+    <!-- выбрать перснонажа -->
+    <string name="first_class">Алан</string>
+    <string name="second_class">Риктор</string>
+    <string name="tree_class">Рэнэ</string>
+    <string name="first_race_description">Человек. пол: муж. Маг.
+        Вам когда нибудь приходилось слышать такое описание:
+        "спит с книгой,ест с книгойи живет с книгой,а так же любит умничать и всё на свете знает"
+        если да,то это про Алана.</string>
+    <string name="second_race_description">Рикток.пол: муж. Гномы по своей природе очень упрямы и горделивы.Если вы
+    решитесь перепить гнома,то будте готовы сразу проиграть,потому что гномы могут выпить целую бочку пива размером с себя.</string>
+    <string name="tree_race_description">Рэнэ. пол: жен. Если вы пресдтавляете себе красивую высокую и стройную эльфийку,
+    то Рэна под это описание точно не подходит. Рэна родилась в лесах Милдред что находятся на севере Holf.Эльфы там живут в полной
+    гармонии с природой и чтоб вы понимали,они не заботятся о своей красоте.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <!-- таверна -->
+    <string name="location_tavern">Таверна</string>
+    <string name="talk_barmen">Поговорить с барменом</string>
+    <string name="status_bar">Статус</string>
+    <string name="change_location">Выбрать локацию</string>
+
+
+    <string name="talk_barmen_1">Приветсвую тебя в нашей таверне "так то так то". давно к нам люди не заходили</string>
+    <string name="talk_barmen_3">Приветсвую тебя в нашей таверне "так то так то". давно к нам эльфы не заходили</string>
+    <string name="talk_barmen_2">Приветсвую тебя в нашей таверне "так то так то". давно к нам гномы не заходили</string>
+
+    <string name="talk_barmen_v_1">Поприветствовать его</string>
+    <string name="talk_barmen_v_2">Спросить почему все встревоженны?</string>
+    <string name="talk_barmen_v_3">Налей мне эля</string>
+
+    <string name="v3_otvet">Смотрю ты любитель выпить да? Держи первая за счет заведения,так сказать в качетве знакомства.
+    Бармен протягивает полную до краёв кружку эля.</string>
+    <string name="thanks">Спасибо</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

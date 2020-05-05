@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewGame"
+    android:background="@drawable/tavern_background"
+    android:layout_gravity="center">
+
+    <Button
+        android:id="@+id/button_tavern_music_off"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="280dp"
+        android:background="@drawable/ic_volume_off">
+    </Button>
+
+    <Button
+        android:id="@+id/button_tavern_music_on"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="300dp"
+        android:background="@drawable/ic_volume_on">
+    </Button>
+
+    <Button
+        android:gravity="center"
+        android:id="@+id/first_race"
+        android:layout_toStartOf="@id/second_race"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="86dp"
+        android:layout_height="58dp"
+        android:text="@string/first_class"
+        android:background="@drawable/button_new_game_background"/>
+    <Button
+        android:gravity="center"
+        android:id="@+id/second_race"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="86dp"
+        android:layout_height="58dp"
+        android:text="@string/second_class"
+        android:background="@drawable/button_new_game_background"/>
+    <Button
+        android:gravity="center"
+        android:id="@+id/tree_race"
+        android:layout_toEndOf="@id/second_race"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_width="86dp"
+        android:layout_height="58dp"
+        android:text="@string/tree_class"
+        android:background="@drawable/button_new_game_background"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="220dp"
+        android:background="@color/black_Color">
+        <TextView
+            android:id="@+id/text_view_new_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/whiteColor"
+            android:textSize="20sp">
+
+        </TextView>
+    </ScrollView>
+    <Button
+        android:id="@+id/button_netx_new_game"
+        android:background="@drawable/ic_arrow_backstory"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/whiteColor" />
+
+</RelativeLayout>

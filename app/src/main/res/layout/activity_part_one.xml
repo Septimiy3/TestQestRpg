@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PartOne"
+    android:background="@drawable/tavern_background"
+    >
+
+    <Button
+        android:id="@+id/button_tavern_music_off"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_volume_off">
+    </Button>
+
+    <Button
+        android:id="@+id/button_tavern_music_on"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_volume_on">
+    </Button>
+
+    <TextView
+        android:id="@+id/tavern_location_text"
+        android:layout_width="126dp"
+        android:layout_height="38dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="190dp"
+        android:gravity="center"
+        android:background="@color/black_Color"
+        tools:text="Локация: таверна"
+        android:text="@string/location_tavern"
+        android:textColor="@color/whiteColor"
+        android:textSize="15sp"
+        android:onClick="changeLoactionDungeon">
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_talk_barmen"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="180dp"
+        android:gravity="center"
+        android:background="@color/black_Color"
+        tools:text="Поговорить с барменом"
+        android:text="@string/talk_barmen"
+        android:textColor="@color/whiteColor"
+        android:textSize="12sp">
+    </Button>
+    <Button
+        android:id="@+id/btn_change_location"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="130dp"
+        android:gravity="center"
+        android:background="@color/black_Color"
+        tools:text="Локации"
+        android:text="@string/change_location"
+        android:textColor="@color/whiteColor"
+        android:textSize="15sp">
+    </Button>
+
+    <Button
+        android:id="@+id/button_status"
+        android:layout_width="126dp"
+        android:layout_height="38dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="190dp"
+        android:gravity="center"
+        android:background="@color/black_Color"
+        tools:text="Статус"
+        android:text="@string/status_bar"
+        android:textColor="@color/whiteColor"
+        android:textSize="15sp">
+
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
